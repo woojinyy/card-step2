@@ -1,0 +1,18 @@
+*{
+  box-sizing: border-box;
+  /* border: 1px solid green; */
+}
+.company::after{
+  content:"";
+  display: block;
+  width: 90%;
+  height: 2px;
+  transform: translateY(0.5em);/* 회사와  직책사이에 선그리기 */
+  background-color: wheat;
+
+}
+@media screen and(max-width:62rem){
+  .container{
+    flex-direction: column;
+  }
+}
